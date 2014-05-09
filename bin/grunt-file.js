@@ -57,11 +57,11 @@ module.exports = function(grunt) {
                 extName: '.js'
             },
             {
-                path: path.normalize(path.join(__dirname, "dist", "js")),
+                path: path.normalize(path.join(__dirname, "dist", "apps")),
                 extName: '.handlebars'
             },
             {
-                path: path.normalize(path.join(__dirname, "dist", "js")),
+                path: path.normalize(path.join(__dirname, "dist", "apps")),
                 extName: '.tpl'
             },
             {
@@ -151,6 +151,7 @@ module.exports = function(grunt) {
                     path.join(__dirname, "dist")
                 ],
                 alias: getAliasFromConfigFile(),
+                replacePaths: getPathsFromConfigFile(),
                 extraName: function(src) {
                     var name = path.relative("", src);
                     if (/^dist/.test(name)) {

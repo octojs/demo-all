@@ -8,7 +8,7 @@
 define(function (require, exports, module) {
     'use strict';
     var $ = require("$");
-    var view = require("./view");
+    var view = require("demoPath/view");
     setTimeout(function() {
         view.setCss();
         view.append();

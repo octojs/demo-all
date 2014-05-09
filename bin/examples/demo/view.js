@@ -8,7 +8,7 @@
 define(function (require, exports, module) {
     'use strict';
     var $ = require("$");
-    var template = require("./template.handlebars");
+    var template = require("demoPath/template.handlebars");
     module.exports = {
         setCss: function() {
             $("body").css({
