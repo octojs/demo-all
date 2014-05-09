@@ -20,7 +20,9 @@
             less: 'alinw/less/1.9.0/less',
             moment: "gallery/moment/2.3.1/moment"
         },
-        paths: {},
+        paths: {
+            demoPath: 'apps/demo'
+        },
         comboSyntax: ["??", ","],
         comboMaxLength: 500,
         preload: [
