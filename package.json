@@ -1,0 +1,26 @@
+{
+    "name": "demo-all",
+    "version": "0.0.1",
+    "description": "针对alinw生成项目路径",
+    "keywords": [],
+    "author": "garcia.wul <garcia.wul@alibaba-inc.com>",
+    "maintainer": [],
+    "homepage": "https://github.com/octojs/demo-all",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:octojs/demo-all.git"
+    },
+    "bugs": {
+        "url": "https://github.com/octojs/demo-all/issues"
+    },
+    "dependencies": {
+        "shutils": "~0.0.0"
+    },
+    "bin": {
+        "alinw": "bin/alinw.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "license": "MIT"
+}
